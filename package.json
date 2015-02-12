@@ -1,9 +1,9 @@
 {
-	"name" : "JSV",
-	"version" : "4.0.2",
-	"description" : "A JavaScript implementation of a extendable, fully compliant JSON Schema validator.",
-	"homepage" : "http://github.com/garycourt/JSV",
-	"author" : "Gary Court <gary.court@gmail.com>",
+	"name" : "JSV-globocom",
+	"version" : "4.1.0",
+	"description" : "A JavaScript implementation of a extendable, fully compliant JSON Schema validator with Globocom patches.",
+	"homepage" : "http://github.com/globocom/JSV",
+	"author" : "Gary Court <gary.court@gmail.com>, Wilson Junior <wilsonpjunior@gmail.com>",
 	"licenses" : [
 		{
 			"type" : "FreeBSD",
@@ -26,7 +26,10 @@
 			"url" : "git://github.com/garycourt/JSV.git"
 		}
 	],
-	"dependencies" : [],
+        "dependencies" : {
+            "moment": "~2.5.1",
+            "validator": "~3.27.0"
+        },
 	"main" : "lib/jsv.js",
 	"keywords" : ["json", "schema", "validator"]
 }
