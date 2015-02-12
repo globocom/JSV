@@ -1,5 +1,5 @@
 {
-  "name": "JSV_globocom",
+  "name": "JSVgcom",
   "version": "4.2.1",
   "description": "A JavaScript implementation of a extendable, fully compliant JSON Schema validator with Globocom patches.",
   "homepage": "http://github.com/globocom/JSV",
