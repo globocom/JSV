@@ -1,6 +1,6 @@
 {
   "name": "JSV_globocom",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "A JavaScript implementation of a extendable, fully compliant JSON Schema validator with Globocom patches.",
   "homepage": "http://github.com/globocom/JSV",
   "author": "Gary Court <gary.court@gmail.com>, Wilson Junior <wilsonpjunior@gmail.com>",
